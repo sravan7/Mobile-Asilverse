@@ -1,0 +1,273 @@
+
+html{
+	overflow-x: hidden;
+}
+body{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-image: url("../images/bg.JPG");
+}
+.modal{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 2;
+	left: 0;
+	top: 0;
+	background-color: rgba(3,0,39,1);
+}
+.closebtn{
+	float: left;
+	font-size: 38px;
+	color: #fff;
+	background: none;
+	border: none;
+}
+.navItem{
+	font-size: 26px;
+	text-decoration: none;
+	color: #fff;
+}
+.navbar-brand{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
+.social-Links{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.social-Link{
+	color: #fff;
+	padding-left: 12px;
+}
+.brandName{
+	margin: 0 auto;
+	text-align: center;
+}
+.brandLink{
+	text-decoration: none;
+	color: #222;
+	margin-top: 20px;
+}
+.nav-fixed{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.menubtn{
+	background: none;
+	border: none;
+	font-size: 24px;
+}
+.row-centered{
+	text-align: center;
+}
+.col-centered{
+	display: inline-block;
+	float: none;
+	text-align: left;
+	margin-right: -4px;
+	text-align: center;
+}
+.images{
+	position: relative;
+	overflow: hidden;
+}
+.img-thumbnail{
+	background: none;
+}
+.feather{
+	position: absolute;
+	z-index: 1;
+	right: -25px;
+	margin-left: 20px;
+	transform: rotate(20deg);
+	overflow: hidden;
+}
+.rock{
+	position: absolute;
+	z-index: 1;
+	top: 350px;
+	left: 2px;
+	overflow: hidden;
+}
+.bookImage{
+	border: none;
+}
+.rockImage{
+	border: none;
+}
+.featherImage{
+	border: none;
+}
+.ratings{
+	font-size: 26px;
+}
+.buyNow{
+	width: 100%;
+	height: 50px;
+	font-size: 24px;
+	background: #222;
+	color: #fff;
+	border-radius: 0;
+}
+.description{
+	width: 100%;
+	background: #fff;
+	border-radius: 10px; 
+	font-weight: 700;
+	box-shadow: 0 0 1px #fff;
+	margin: 1px;
+}
+.similarImagesOne{
+	opacity: 0.4;
+}
+.similar{
+	position: absolute;
+	z-index: 1;
+	left: 70px;
+	overflow: hidden;
+}
+.similarTwo{
+	position: absolute;
+	z-index: 1;
+	left: 140px;
+	overflow: hidden;
+}
+.similarThree{
+	position: absolute;
+	z-index: 1;
+	left: 210px;
+	overflow: hidden;
+}
+.one{
+	opacity: 0.5;
+	border: none;
+}
+.two{
+	opacity: 1;
+	border: none;
+}
+.description-content{
+	font-size: 16px;
+	text-align: center;
+	font-weight: 400;
+}
+.decorativefeather{
+	position: absolute;
+	z-index: 1;
+	top: 200px;
+	right: -100px;
+	margin-left: 20px;
+	transform: rotate(15deg);
+}
+.decorativefeatherImage{
+	border: none;
+}
+.quotes{
+	width: 100%;
+	background: #fff;
+	border-radius: 10px; 
+	font-weight: 700;
+	box-shadow: 0 0 1px #fff;
+	margin: 1px;
+}
+.left-quote{
+	font-size: 54px;
+	color: #9e0;
+	font-weight: 500;
+	height: 20px;
+}
+.right-quote{
+	font-size: 54px;
+	color: #9e0;
+	font-weight: 500;
+	height: 20px;
+	float: left;
+}
+.quote{
+	font-size: 26px;
+}
+.author{
+	width: 100%;
+	height: 644px;
+	background: none;
+	border-radius: 10px; 
+	font-weight: 700;
+	box-shadow: 0 0 1px #fff;
+	margin: 1px;
+}
+.caroselContainer{
+	background: #fff;
+	box-shadow: 0 0 20px 0 #999;
+	border-radius: 6px;
+}
+.carosel-content{
+	font-size: 24px;
+}
+.carosel-none{
+	display: none;
+}
+.slider-btn{
+	height: 15px;
+	width: 15px;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+}
+.slider-active{
+	background: #222;
+	width: 20px;
+	height: 20px;
+}
+.watchnow{
+	background: #fff;
+	border: 1px solid #333;
+	color: #000;
+	font-weight: 500;
+	border-radius: 0;
+}
+.contactus{
+	width: 100%;
+	height: 644px;
+	background: rgba(3,0,39,1);
+	border-radius: 10px; 
+	font-weight: 700;
+	box-shadow: 0 0 1px #fff;
+	margin: 1px;
+	color: #fff;
+}
+
+.name{
+	display: block;
+	background: none;
+	border: none;
+	width: 250px;
+	border-bottom: 2px solid rgba(255,255,255,0.8); 
+	color: #fff;
+	outline: none;
+}
+::placeholder{
+	color: #fff;
+	padding: 5px;
+}
+.story{
+	display: block;
+	background: none;
+	border: 2px solid rgba(255,255,255,0.8);
+	border-radius: 5px;
+	width: 260px;
+	border-bottom: 2px solid rgba(255,255,255,0.8); 
+	color: #fff;
+	outline: none;
+}
+.submit-btn{
+	width: 100px;
+	background: none;
+	color: white;
+	box-shadow: 0 0 1px 1px #fff;
+}
